@@ -12,7 +12,7 @@ public class Main {
         System.out.println("List staff have salary smaller than Avr: ");
         for(StaffFulltime staff : ftLowSalary) {
             if(staff!=null){
-                System.out.println(staff.getName()+" - "+staff.finalSalary());
+                System.out.println(staff.toString()+" - Final Salary: "+staff.finalSalary());
             }
         }
 
@@ -21,7 +21,7 @@ public class Main {
         StaffFulltime[] sortStaff = StaffManagement.sortFulltimebySalary();
         for(StaffFulltime staff : sortStaff) {
             if(staff!=null){
-                System.out.println(staff.getName()+" - "+staff.finalSalary());
+                System.out.println(staff.toString()+" - Final Salary: "+staff.finalSalary());
             }
         }
 

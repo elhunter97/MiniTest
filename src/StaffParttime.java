@@ -14,4 +14,11 @@ public class StaffParttime extends Staff {
     public double finalSalary() {
         return 100000*workHours;
     }
+
+    @Override
+    public String toString() {
+        return "StaffParttime{" +
+                "workHours=" + workHours +
+                '}';
+    }
 }

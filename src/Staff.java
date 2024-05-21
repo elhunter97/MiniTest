@@ -57,4 +57,15 @@ public abstract class Staff {
     }
 
     public abstract double finalSalary();
+
+    @Override
+    public String toString() {
+        return "Staff{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }

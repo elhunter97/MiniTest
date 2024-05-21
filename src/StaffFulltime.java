@@ -20,4 +20,13 @@ public class StaffFulltime extends Staff {
     public double finalSalary() {
         return fixedSalary + (bonusMoney - fineMoney);
     }
+
+    @Override
+    public String toString() {
+        return "StaffFulltime{" + "Name: "+getName()+
+                " bonusMoney=" + bonusMoney +
+                ", fineMoney=" + fineMoney +
+                ", fixedSalary=" + fixedSalary +
+                '}';
+    }
 }
